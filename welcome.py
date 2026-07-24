@@ -1,13 +1,14 @@
-# Creating different variables
-x = 5
-y = "Savita Dhingra"
-print(x)
-print(y)
+#Print a Sentence 
+print("Welcome to the world of programming!")
 
-codingal = "codingal"
-print(codingal)
+#Print a Number
+print(4)
 
-# User Input
-name = input("enter your name: ")
+#Next Line after print
+print("Hello Python \n")
 
-print("\nHello", name, "\nwelcome to codingal")
+#Pass multiple arguments for printing
+print("hello",5)
+
+#End argument of Print Statement
+print("welcome to ", end= "*")
