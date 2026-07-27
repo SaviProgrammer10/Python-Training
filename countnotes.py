@@ -1,0 +1,13 @@
+# Count the number of currency notes
+
+amount = int(input("Enter the amount: "))
+
+notes = [500, 200, 100, 50, 20, 10, 5, 2, 1]
+
+print("\nMinimum number of notes required:")
+
+for note in notes:
+    count = amount // note
+    if count > 0:
+        print(f"₹{note} :", count)
+        amount = amount % note
