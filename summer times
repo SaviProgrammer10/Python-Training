@@ -1,0 +1,12 @@
+# Check summer time based on temperature
+
+temperature = float(input("Enter temperature in Celsius: "))
+
+if temperature >= 30:
+    print("It is Summer Time")
+
+elif temperature >= 20:
+    print("Weather is Warm")
+
+else:
+    print("It is not Summer Time")
