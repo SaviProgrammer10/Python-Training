@@ -1,0 +1,10 @@
+print("=== Exam Eligibility Check ===")
+
+name = input("Enter student name: ")
+attendance = float(input("Enter attendance percentage: "))
+marks = float(input("Enter marks: "))
+
+if attendance >= 75 and marks >= 40:
+    print(name, "is eligible for the exam.")
+else:
+    print(name, "is not eligible for the exam.")
